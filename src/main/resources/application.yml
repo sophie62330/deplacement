@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: db
+      host: localhost
+      port: 27017
+
+server:
+  port: 8082
+
+environnement:
+  uri1: http://localhost:8080
+  uri2: http://localhost:8081
